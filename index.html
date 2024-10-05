@@ -33,12 +33,12 @@
         .gcse-search {
             margin-top: 20px;
         }
-        .gcse-search-results {
-            max-height: 400px; /* Set a max height for scrolling */
-            overflow-y: auto; /* Enable vertical scrolling */
-            padding: 10px;
-            background: rgba(255, 255, 255, 0.2);
+        iframe {
+            width: 100%;
+            height: 400px; /* Set height for iframe */
+            border: none;
             border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>
@@ -47,10 +47,11 @@
         <h1>✨ Cosmic Search Portal ✨</h1>
         <p>Explore the universe of knowledge!</p>
         <div class="gcse-search"></div>
-        <div class="gcse-search-results"></div> <!-- Placeholder for search results -->
+        <iframe src="https://cse.google.com/cse?cx=b2023f52984024611" title="Google Custom Search Engine"></iframe>
     </div>
 </body>
 </html>
+
 
 
 
