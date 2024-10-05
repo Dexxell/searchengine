@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmic Search Page</title>
+    <title>Cosmic Search Portal</title>
     <script async src="https://cse.google.com/cse.js?cx=e2b3f47d2c73d4e97"></script>
     <style>
         body {
@@ -33,6 +33,13 @@
         .gcse-search {
             margin-top: 20px;
         }
+        .gcse-search-results {
+            max-height: 400px; /* Set a max height for scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -40,6 +47,7 @@
         <h1>✨ Cosmic Search Portal ✨</h1>
         <p>Explore the universe of knowledge!</p>
         <div class="gcse-search"></div>
+        <div class="gcse-search-results"></div> <!-- Placeholder for search results -->
     </div>
 </body>
 </html>
